@@ -1,32 +1,48 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <Home/>
   </div>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+  import Home from './views/Home'
 
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
+  export default {
+    name: 'app',
+    data() {
+      return {
+        indent: '20px'
+      }
+    },
+    components: {
+      Home
     }
   }
-}
+</script>
+
+<style lang="scss">
+  #app {
+    margin: 0 auto;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-size: 0.92em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
+  }
+
+  h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+  }
+
+  h4 {
+    margin-top: 3px;
+  }
+
+  hr {
+    margin: 1px 0;
+  }
+
+  ul {
+    padding-inline-start: 20px;
+  }
 </style>
