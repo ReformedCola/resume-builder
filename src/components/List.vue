@@ -1,16 +1,17 @@
 <template>
   <ul>
-    <li v-for="item in source">
+    <li v-for="item in source" v-bind:key="item">
       <p class="item">
                 <span class="left">
                     {{item.left}}
                     <br>
-                    <a class="link" v-if="item.link" :href="item.link"> ({{item.link}})</a>
+                    <a class="link" v-if="item.previewLink" :href="item.previewLink" target="_blank">Preview </a>
+                    <a class="link" v-if="item.sourceLink" :href="item.sourceLink" target="_blank">| Source Code</a>
                 </span>
         <span class="right">{{item.right}}</span>
       </p>
       <ul>
-        <li v-for="childrenItem in item.children">
+        <li v-for="childrenItem in item.children" v-bind:key="childrenItem">
           <p class="children-item">
             <span v-html="renderLeft(childrenItem.left)" class="left"></span>
             <span class="right">{{childrenItem.right}}</span>
@@ -37,7 +38,7 @@
     },
     methods: {
       renderLeft(left) {
-        return left.replace(/\*([\w.\s&()\/,-]+)\*/g, '<strong>$1</strong>')
+        return left.replace(/\*([\w.\s&()/,-]+)\*/g, '<strong>$1</strong>')
       }
     }
   }
