@@ -89,7 +89,7 @@ export default {
     },
     {
       left: 'Pikachu',
-      previewLink: 'http://colachick.com/pikachu/dist/index.html',
+      previewLink: 'http://colachick.com/pikachu/',
       sourceLink: 'https://github.com/ReformedCola/pikachu',
       right: '02/2020',
       children: [
