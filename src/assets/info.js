@@ -99,13 +99,15 @@ export default {
       skillStack: 'JavaScript (ES6), CSS3, jQuery, HTML5'
     },
     {
-      left: 'Mini Sketch Book',
-      previewLink: 'http://colachick.com/canvas/',
-      sourceLink: 'https://github.com/ReformedCola/canvas',
+      left: 'Quick Sketch Book',
+      previewLink: 'http://colachick.com/quick-sketch-book/',
+      sourceLink: 'https://github.com/ReformedCola/quick-sketch-book',
       right: '01/2020',
       children: [
-        {left: 'Built a online Mini Sketch Book based on *Canvas* for users to draw their ideas down quickly and easily'},
-        {left: 'Implemented drawing function through *eventListener* with mouse events'},
+        {left: 'Built an online Quick Sketch Book based on *Canvas* for users to draw their notes or ideas down quickly and easily'},
+        {left: 'Implemented drawing and erasing function through *eventListener* with mouse events'},
+        {left: 'Users could choose different colors or sizes of pen for drawing'},
+        {left: 'Provided image download option through temporary generated anchor element'}
       ],
       skillStack: 'JavaScript (ES6), Canvas API, HTML5'
     },
