@@ -76,7 +76,7 @@ export default {
     },
     {
       left: 'Web Navigation',
-      previewLink: 'http://colachick.com/webnav/dist/index.html',
+      previewLink: 'http://colachick.com/webnav/',
       sourceLink: 'https://github.com/ReformedCola/webnav',
       right: '03/2020',
       children: [
