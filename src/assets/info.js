@@ -3,7 +3,7 @@ export default {
   tel: '+1(415)608-3052',
   email: 'zhiyuanfw@gmail.com',
   github: 'https://github.com/ReformedCola',
-  website: '',
+  website: 'https://horzhiyuan.com',
   linkedin: 'https://www.linkedin.com/in/jason-hor/',
   address: 'Frontend Engineer in Hayward, CA',
   auth: 'Authorized to work in the U.S. without sponsorship',

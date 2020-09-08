@@ -12,6 +12,9 @@
       <p class="github">
         Github: <a :href="github">{{github}}</a>
       </p>
+      <p class="website">
+        Personal Website: <a :href="website">{{website}}</a>
+      </p>
       <p class="linkedin">
         LinkedIn: <a :href="linkedin">{{linkedin}}</a>
       </p>
