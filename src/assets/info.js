@@ -48,7 +48,7 @@ export default {
   projects: [
     {
       left: 'iExpense (React)',
-      previewLink: 'http://colachick.com/iExpense-react-website/',
+      previewLink: 'http://horzhiyuan.com/iExpense-react-website/',
       sourceLink: 'https://github.com/ReformedCola/iExpense-react',
       right: '06/2020',
       children: [
@@ -62,7 +62,7 @@ export default {
     },
     {
       left: 'iExpense (Vue)',
-      previewLink: 'http://colachick.com/iExpense-vue-website/',
+      previewLink: 'http://horzhiyuan.com/iExpense-vue-website/',
       sourceLink: 'https://github.com/ReformedCola/iExpense-vue',
       right: '05/2020',
       children: [
@@ -76,7 +76,7 @@ export default {
     },
     {
       left: 'Web Navigation',
-      previewLink: 'http://colachick.com/webnav/',
+      previewLink: 'http://horzhiyuan.com/webnav/',
       sourceLink: 'https://github.com/ReformedCola/webnav',
       right: '03/2020',
       children: [
@@ -89,7 +89,7 @@ export default {
     },
     {
       left: 'Pikachu',
-      previewLink: 'http://colachick.com/pikachu/',
+      previewLink: 'http://horzhiyuan.com/pikachu/',
       sourceLink: 'https://github.com/ReformedCola/pikachu',
       right: '02/2020',
       children: [
@@ -100,7 +100,7 @@ export default {
     },
     {
       left: 'Quick Sketch Book',
-      previewLink: 'http://colachick.com/quick-sketch-book/',
+      previewLink: 'http://horzhiyuan.com/quick-sketch-book/',
       sourceLink: 'https://github.com/ReformedCola/quick-sketch-book',
       right: '01/2020',
       children: [
