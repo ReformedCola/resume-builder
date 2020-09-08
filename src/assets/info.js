@@ -14,26 +14,20 @@ export default {
       children: [
         {
           left: 'B.S. Computational Mathematics',
-          right: '10/2014 - 06/2019'
+          right: '10/2014 - 09/2019'
         },
       ]
     },
   ],
   skills: [
     {
-      left: 'Proficiency with *JavaScript*, *ES6*, important concepts like Prototype, Closure, Ajax, JSONP, CORS, etc'
+      left: 'Proficiency with *JavaScript*, *ES6*, *TypeScript*, *SASS*, *CSS3*, *HTML5*'
     },
     {
-      left: 'Familiar with *React.js*, *React Hooks*, *React Router*, *Redux*, *Lifecycle*, etc'
+      left: 'Proficiency with *React.js*, *React Hooks*, *React Router*, *Redux*, *Lifecycle*, etc'
     },
     {
-      left: 'Familiar with *Vue.js*, *Vue Cli*, *Vue Router*, *Vuex*, etc'
-    },
-    {
-      left: 'Proficiency with *CSS3*, *SASS*, *HTML5*'
-    },
-    {
-      left: 'Proficiency with *TypeScript*'
+      left: 'Proficiency with *Vue.js*, *Vue Cli*, *Vue Router*, *Vuex*, etc'
     },
     {
       left: "Experience in *Webpack*'s configuration and optimization"
@@ -52,7 +46,7 @@ export default {
       sourceLink: 'https://github.com/ReformedCola/iExpense-react',
       right: '06/2020',
       children: [
-        {left: 'Developed a Bookkeeping Single-Page Application with *React.js* and *TypeScript* for users to record and track their expense and income easily'},
+        {left: 'Developed iExpense again with *React.js* and *TypeScript* to see which framework is better'},
         {left: 'Implemented components with React.js features, such as *hash Router*, *function component*, *onChange*, *props*, etc'},
         {left: 'Applied customized *React Hooks* and *useState* instead of *Redux* to read and write stored data in *localStorage*'},
         {left: 'Utilized charts from *ECharts* and ranking system with sorting to help users visualize their expense and income'},
