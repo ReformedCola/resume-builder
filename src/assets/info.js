@@ -1,5 +1,5 @@
 export default {
-  name: 'Zhiyuan He',
+  name: 'Zhiyuan Hor',
   tel: '+1(415)608-3052',
   email: 'zhiyuanfw@gmail.com',
   github: 'https://github.com/ReformedCola',
