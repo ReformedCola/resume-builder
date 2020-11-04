@@ -41,6 +41,20 @@ export default {
   ],
   projects: [
     {
+      left: 'Snowflake UI',
+      previewLink: 'https://horzhiyuan.com/snowflake-ui/',
+      sourceLink: 'https://github.com/ReformedCola/snowflake-ui',
+      right: '09/2020',
+      children: [
+        {left: 'Built a simple and useful UI library based on *Vue.js* and *ES6*, inspired by Ant Design and Element UI'},
+        {left: 'Implemented useful components with most of the features from Vue, such as *slot*, *lifecycle hooks*, etc'},
+        {left: 'Built the documentation page with *VuePress*'},
+        {left: 'Utilized *Karma*, *Mocha*, and *Sinon* for unit test automation'},
+        {left: 'Used *Travis CI* for continuous integration'}
+      ],
+      skillStack: 'Vue.js, JavaScript (ES6), SCSS',
+    },
+    {
       left: 'iExpense (React)',
       previewLink: 'http://horzhiyuan.com/iExpense-react-website/',
       sourceLink: 'https://github.com/ReformedCola/iExpense-react',
@@ -92,18 +106,18 @@ export default {
       ],
       skillStack: 'JavaScript (ES6), CSS3, jQuery, HTML5'
     },
-    {
-      left: 'Quick Sketch Book',
-      previewLink: 'http://horzhiyuan.com/quick-sketch-book/',
-      sourceLink: 'https://github.com/ReformedCola/quick-sketch-book',
-      right: '01/2020',
-      children: [
-        {left: 'Built an online Quick Sketch Book based on *Canvas* for users to draw their notes or ideas down quickly and easily'},
-        {left: 'Implemented drawing and erasing function through *eventListener* with mouse events'},
-        {left: 'Users could choose different colors or sizes of pen for drawing'},
-        {left: 'Provided image download option through temporary generated anchor element'}
-      ],
-      skillStack: 'JavaScript (ES6), Canvas API, HTML5'
-    },
+    // {
+    //   left: 'Quick Sketch Book',
+    //   previewLink: 'http://horzhiyuan.com/quick-sketch-book/',
+    //   sourceLink: 'https://github.com/ReformedCola/quick-sketch-book',
+    //   right: '01/2020',
+    //   children: [
+    //     {left: 'Built an online Quick Sketch Book based on *Canvas* for users to draw their notes or ideas down quickly and easily'},
+    //     {left: 'Implemented drawing and erasing function through *eventListener* with mouse events'},
+    //     {left: 'Users could choose different colors or sizes of pen for drawing'},
+    //     {left: 'Provided image download option through temporary generated anchor element'}
+    //   ],
+    //   skillStack: 'JavaScript (ES6), Canvas API, HTML5'
+    // },
   ],
 }
