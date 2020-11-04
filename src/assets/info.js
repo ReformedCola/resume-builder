@@ -30,13 +30,13 @@ export default {
       left: 'Proficiency with *Vue.js*, *Vue Cli*, *Vue Router*, *Vuex*, etc'
     },
     {
-      left: "Experience in *Webpack*'s configuration and optimization"
+      left: "Experience in *Webpack* and *Git*/*GitHub*"
     },
     {
       left: 'Experience in useful libraries like *Echarts.js*, *Day.js*, etc'
     },
     {
-      left: 'Experience in *Git*/*GitHub*'
+      left: 'Experience test tools like *Mocha*, *Sinon*, *Chai*, *karma*, *Travis CI*'
     }
   ],
   projects: [
@@ -46,11 +46,10 @@ export default {
       sourceLink: 'https://github.com/ReformedCola/snowflake-ui',
       right: '09/2020',
       children: [
-        {left: 'Built a simple and useful UI library based on *Vue.js* and *ES6*, inspired by Ant Design and Element UI'},
-        {left: 'Implemented useful components with most of the features from Vue, such as *slot*, *lifecycle hooks*, etc'},
-        {left: 'Built the documentation page with *VuePress*'},
-        {left: 'Utilized *Karma*, *Mocha*, and *Sinon* for unit test automation'},
-        {left: 'Used *Travis CI* for continuous integration'}
+        {left: 'Developed a UI library with *Vue.js* and *ES6*, inspired by Ant Design and Element UI'},
+        {left: 'Applied Vue.js features, such as *slot*, *transition*, *watch properties* to design and implement component'},
+        {left: 'Wrote unit tests with *Chai*, *Sinon*, *Mocha* and set up CI environment with *Travis CI* and *Karma*'},
+        {left: 'Utilized *VuePress* to build the documentation page'}
       ],
       skillStack: 'Vue.js, JavaScript (ES6), SCSS',
     },
@@ -95,17 +94,17 @@ export default {
       ],
       skillStack: 'JavaScript (ES6), CSS3, jQuery, localStorage, JSON, SVG Symbols, Media Queries, HTML5'
     },
-    {
-      left: 'Pikachu',
-      previewLink: 'http://horzhiyuan.com/pikachu/',
-      sourceLink: 'https://github.com/ReformedCola/pikachu',
-      right: '02/2020',
-      children: [
-        {left: 'Utilized *jQuery*, *HTML5*, *CSS3* to draw a Pikachu on a web page'},
-        {left: 'Drawing a Pikachu dynamically while writing CSS codes line by line'},
-      ],
-      skillStack: 'JavaScript (ES6), CSS3, jQuery, HTML5'
-    },
+    // {
+    //   left: 'Pikachu',
+    //   previewLink: 'http://horzhiyuan.com/pikachu/',
+    //   sourceLink: 'https://github.com/ReformedCola/pikachu',
+    //   right: '02/2020',
+    //   children: [
+    //     {left: 'Utilized *jQuery*, *HTML5*, *CSS3* to draw a Pikachu on a web page'},
+    //     {left: 'Drawing a Pikachu dynamically while writing CSS codes line by line'},
+    //   ],
+    //   skillStack: 'JavaScript (ES6), CSS3, jQuery, HTML5'
+    // },
     // {
     //   left: 'Quick Sketch Book',
     //   previewLink: 'http://horzhiyuan.com/quick-sketch-book/',
