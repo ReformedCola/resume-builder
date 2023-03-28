@@ -21,7 +21,7 @@ export default {
   ],
   skills: [
     {
-      left: 'Proficiency with *JavaScript*, *ES6*, *TypeScript*, *SASS*, *CSS3*, *HTML5*'
+      left: 'Proficiency with *JavaScript*, *TypeScript*, *SASS*, *CSS3*, *HTML5*'
     },
     {
       left: 'Proficiency with *React.js*, *React Hooks*, *React Router*, *Redux*, *Lifecycle*, etc'
@@ -30,13 +30,13 @@ export default {
       left: 'Proficiency with *Vue.js*, *Vue Cli*, *Vue Router*, *Vuex*, etc'
     },
     {
-      left: "Experience in *Webpack* and *Git*/*GitHub*"
+      left: "Experience in *Next.js*, *Vite*, *Webpack*, *WordPress*, *Git*/*GitHub*, *Bitbucket*, *GCP*"
     },
     {
-      left: 'Experience in useful libraries like *Echarts.js*, *Day.js*, etc'
+      left: 'Experience in useful libraries like *Easy-Peasy*, *Zustand*, *Echarts.js*, *Day.js*, etc'
     },
     {
-      left: 'Experience test tools like *Mocha*, *Sinon*, *Chai*, *karma*, *Travis CI*'
+      left: 'Experience test tools like *Mocha*, *Sinon*, *Chai*, *Karma*, *Travis CI*'
     }
   ],
   projects: [
@@ -118,5 +118,19 @@ export default {
     //   ],
     //   skillStack: 'JavaScript (ES6), Canvas API, HTML5'
     // },
+  ],
+  experience: [
+    {
+      left: 'Enable Data (Frontend Engineer)',
+      right: '01/14/2021 - Current',
+      children: [
+        {left: 'Collaborated with cross-functional teams to develop and support customer-facing web applications, enhancing user experience and satisfaction'},
+        {left: 'Developed a web platform for customers to seamlessly purchase and manage trip plans, increasing user engagement and revenue'},
+        {left: 'Developed and designed a headless e-commerce platform, enabling customers to efficiently browse and purchase products while fostering a visually appealing user interface'},
+        {left: 'Collaborated with team members to optimize user interface, resulting in a more efficient and user-friendly tool for the organization'},
+        {left: 'Gained valuable experience in Agile development practices and utilized various tools to effectively manage development and deployment processes'},
+      ],
+      techStack: 'Next.js, React.js, Zustand, Easy-Peasy, Swagger UI, React-Hook-Form, Formik, Yup, React-Query, Postman, MUI5, WordPress, Express, Figma'
+    },
   ],
 }

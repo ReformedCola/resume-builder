@@ -5,33 +5,28 @@
       <p>
         {{address}}
       </p>
-      <p class="area">
-        <span class="auth">{{auth}}</span>
-      </p>
       <p>
         Tel: <a href="tel:+1(415)608-3052">{{tel}}</a>
         <span class="email">E-mail: <a href="mailto:zhiyuanfw@gmail.com">{{email}}</a></span>
       </p>
-
       <p class="github">
         Github: <a :href="github">{{github}}</a>
-        LinkedIn: <a :href="linkedin">{{linkedin}}</a>
       </p>
-<!--      <p class="website">-->
-<!--        Personal Website: <a :href="website">{{website}}</a>-->
-<!--      </p>-->
-      <p class="linkedin">
+      <p class="website">
         Personal Website: <a :href="website">{{website}}</a>
       </p>
-<!--      <p class="area">-->
-<!--        <span class="auth">{{auth}}</span>-->
-<!--      </p>-->
+      <p class="linkedin">
+        LinkedIn: <a :href="linkedin">{{linkedin}}</a>
+      </p>
+      <p class="area">
+        <span class="auth">{{auth}}</span>
+      </p>
     </div>
 
-    <div class="edu">
-      <h4>EDUCATION</h4>
+    <div class="projects">
+      <h4>Work Experience</h4>
       <hr>
-      <List :source="edus"></List>
+      <List :source="experience"></List>
     </div>
 
     <div class="skills">
@@ -41,9 +36,15 @@
     </div>
 
     <div class="projects">
-      <h4>CODING PROJECTS</h4>
+      <h4>PROJECTS</h4>
       <hr>
       <List :source="projects"></List>
+    </div>
+
+    <div class="edu">
+      <h4>EDUCATION</h4>
+      <hr>
+      <List :source="edus"></List>
     </div>
 
   </div>
@@ -61,7 +62,7 @@
     },
     components: {
       List,
-      Skills
+      Skills,
     }
   }
 </script>
@@ -88,5 +89,9 @@
   a {
     color: #42b983;
     text-decoration: none;
+  }
+
+  .projects, .skills, .edu {
+    margin-top: 8px;
   }
 </style>

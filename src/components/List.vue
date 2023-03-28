@@ -23,6 +23,11 @@
           <span class="skillStack" v-if="item.skillStack">Skills: {{item.skillStack}}</span>
         </span>
       </p>
+      <p class="item">
+        <span class="left">
+          <span class="techStack" v-if="item.techStack">Used Techs: {{item.techStack}}</span>
+        </span>
+      </p>
     </li>
   </ul>
 </template>
@@ -51,7 +56,7 @@
   }
 
   .item {
-    margin-top: 3px;
+    margin-top: 4px;
     font-weight: bold;
 
     .link {
@@ -64,6 +69,9 @@
     }
 
     .skillStack {
+      font-style: italic;
+    }
+    .techStack {
       font-style: italic;
     }
   }
