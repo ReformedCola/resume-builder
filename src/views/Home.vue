@@ -5,22 +5,27 @@
       <p>
         {{address}}
       </p>
+      <p class="area">
+        <span class="auth">{{auth}}</span>
+      </p>
       <p>
         Tel: <a href="tel:+1(415)608-3052">{{tel}}</a>
         <span class="email">E-mail: <a href="mailto:zhiyuanfw@gmail.com">{{email}}</a></span>
       </p>
+
       <p class="github">
         Github: <a :href="github">{{github}}</a>
-      </p>
-      <p class="website">
-        Personal Website: <a :href="website">{{website}}</a>
-      </p>
-      <p class="linkedin">
         LinkedIn: <a :href="linkedin">{{linkedin}}</a>
       </p>
-      <p class="area">
-        <span class="auth">{{auth}}</span>
+<!--      <p class="website">-->
+<!--        Personal Website: <a :href="website">{{website}}</a>-->
+<!--      </p>-->
+      <p class="linkedin">
+        Personal Website: <a :href="website">{{website}}</a>
       </p>
+<!--      <p class="area">-->
+<!--        <span class="auth">{{auth}}</span>-->
+<!--      </p>-->
     </div>
 
     <div class="edu">
@@ -36,7 +41,7 @@
     </div>
 
     <div class="projects">
-      <h4>PROJECTS</h4>
+      <h4>CODING PROJECTS</h4>
       <hr>
       <List :source="projects"></List>
     </div>
